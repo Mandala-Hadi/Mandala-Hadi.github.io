@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e40af;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+/* Section */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  color: #1e40af;
+  margin-bottom: 15px;
+  border-left: 5px solid #2563eb;
+  padding-left: 12px;
+}
+
+section ul {
+  margin-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+/* Flow Text */
+#flow p {
+  background: #eff6ff;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Contact */
+#contact p {
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background: #1e40af;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  section {
+    margin: 20px 10px;
+  }
+}
